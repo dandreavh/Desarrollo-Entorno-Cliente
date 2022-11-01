@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2-Funciones</title>
+</head>
+<body>
+    <script>
+        /*
+        Crea una función flecha que sirva para devolver verdadero si un número es par y falso si no lo es.
+        Asigna esa función a una variable y prueba la función para ver que responde correctamente.
+        */
+       let num = parseInt(prompt("Introduzca un número para saber si es par o no"));
+       let par = (num) => num%2===0;
+       alert("¿El número "+num+" es par? "+par(num));
+    </script>
+</body>
+</html>

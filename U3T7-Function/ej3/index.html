@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./logic.js"></script>
+    <title>Ejercicio3-Funciones</title>
+</head>
+<body>
+    <main>
+        <h1>Tu signo del horóscopo egipcio</h1>
+        <div>
+            <label for="birthday">Introduzca su fecha de nacimiento (año incluido)</label>
+            <input type="date" id="birthday" name="birthday" title="Fecha de nacimiento" required/>
+        </div>
+        <button type="button" onclick="knowSign()">Ver signo</button>
+        <br/>
+        <h2 id="sign"></h2>
+        <iframe id="description"></iframe>
+    </main>
+</body>
+</html>

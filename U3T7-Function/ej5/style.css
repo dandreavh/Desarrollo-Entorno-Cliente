@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(139, 139, 139);
+    padding: 2rem;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    width: 400px;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+div{
+    margin-top: 1rem;
+}
+input{
+    height: 50px;
+    font-size: x-large;
+    text-align: center;
+}

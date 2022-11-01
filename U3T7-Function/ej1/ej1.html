@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./funciones.js"></script>
+    <title>Ejercicio1-Funciones</title>
+</head>
+<body>
+    <main>
+        <h1>Cálculo de IMC y FCM</h1>
+        <h2>Datos</h2>
+        <div>
+            <label for="weight">Peso en kg:</label>
+            <input type="number" name="weight" id="weight" title="Peso en kilogramos" step="0.01" min="0" max="1000" required>
+            <label for="height">Altura en m:</label>
+            <input type="number" name="height" id="height" title="Altura en metros" step="0.01" min="0" max="5" required>
+            <label for="age">Edad:</label>
+            <input type="number" name="age" id="age" title="Edad" min="0" max="150" required>
+        </div>
+        <h2>Acciones</h2>
+        <div>
+            <a href="javascript:calcularIMC()">Calcula tu IMC</a>
+            <a href="javascript:calcularFCM()">Calcula tu FCM</a>
+        </div>
+        <hr>
+        <h3 id="result"></h3>
+    </main>
+</body>
+</html>

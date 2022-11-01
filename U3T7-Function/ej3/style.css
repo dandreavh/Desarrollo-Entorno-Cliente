@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(139, 139, 139);
+    padding: 2rem;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    width: max-content;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+div{
+    margin-top: 1rem;
+}
+button{
+    padding: 0.5rem;
+    margin: 1.5rem;
+    background-color: violet;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 150px;
+}
+button:hover{
+    background-color: rgb(206, 118, 206);
+}

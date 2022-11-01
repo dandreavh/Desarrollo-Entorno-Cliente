@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(139, 139, 139);
+    padding: 2rem;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    width: max-content;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+div{
+    margin-top: 1rem;
+}
+a{
+    margin-right: 3rem;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: red;
+    text-align: center;
+}
