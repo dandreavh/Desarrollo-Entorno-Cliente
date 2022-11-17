@@ -1,0 +1,33 @@
+form {
+    font-family: sans-serif;
+    margin: auto;
+    padding: 1em;
+    box-shadow: 2px 2px 20px rgb(60, 60, 60);
+    width: max-content;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+div{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    padding: 1rem;
+    color: white;
+    background-color:#5961F9;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1.5px solid;
+}
+button:hover {
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+#divPrestado, #divBotones{
+    flex-direction: row;
+}

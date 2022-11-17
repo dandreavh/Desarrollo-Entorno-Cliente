@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="../U4T3-ValidaciónBásica/logic.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h1>· Registro de discos ·</h1>
+            <div>
+                <label for="nombreDisco">Nombre del disco</label>
+                <input type="text" name="nombreDisco" id="nombreDisco" maxlength="20" required>
+            </div>
+            <div>
+                <label for="cantante">Grupo o cantante</label>
+                <input type="text" name="cantante" id="cantante" maxlength="20" required>
+            </div>
+            <div>
+                <label for="publicacion">Año de publicación</label>
+                <input type="number" name="publicacion" id="publicacion" pattern="\d{4}" min="1800" max="2022" step="1">
+            </div>
+            <div>
+                <label for="estilo">Estilo musical</label>
+                <input list="estilos" name="estilo" id="estilo">
+                <datalist id="estilos">
+                    <option value="rock">
+                    <option value="pop">
+                    <option value="punk">
+                    <option value="indie">
+                </datalist>
+            </div>
+            <div>
+                <label for="localizacion">Estantería</label>
+                <input type="number" name="localizacion" id="localizacion" step="1">
+            </div>
+            <div id="divPrestado">
+                <label for="prestado">¿Prestado?</label>
+                <input type="checkbox" name="prestado" id="prestado" value="true">
+            </div>
+            <div id="divBotones">
+                <button type="submit" id="enviar" name="enviar">Enviar</button>
+                <button type="reset" id="resetear" name="resetear">Resetear</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
