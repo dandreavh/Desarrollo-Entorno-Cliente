@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./logic.js"></script>
+    <title>Entregable20-21</title>
+</head>
+<body>
+<h1>Genera tu propia tabla</h1>
+<form>
+    <div>
+        <label for="columnas">Indica la cantidad de columnas</label>
+        <input type="text" name="columnas" id="columnas">
+    </div>
+    <div>
+        <label for="filas">Indica la cantidad de filas</label>
+        <input type="text" name="filas" id="filas">
+    </div>
+    <div id="div_header">
+        <label for="header">¿Quieres que tenga un header?</label>
+        <input type="checkbox" name="header" id="header">
+    </div>
+    <div>
+        <label for="valor">Introduce un valor por defecto</label>
+        <input type="text" name="valor" id="valor">
+    </div>
+    <div>
+        <label for="grosor">Indica el grosor del borde</label>
+        <input type="text" name="grosor" id="grosor">
+    </div>
+    <div>
+        <label for="color">Selecciona uno de los colores disponibles para el color del borde</label>
+        <input type="color" list="colores" name="color" id="color">
+        <datalist id="colores">
+            <option value="#000fff">
+            <option value="#9900ff">
+            <option value="#ff00ff">
+            <option value="#000000">
+        </datalist>
+    </div>
+    <div>
+        <button type="button">Generar tabla</button>
+    </div>
+</form>
+<hr>
+<div id="resultado"></div>
+</body>
+</html>
