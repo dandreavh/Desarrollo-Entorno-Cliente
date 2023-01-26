@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series>
+    <serie>
+        <titulo>Game of Thrones</titulo>
+        <cadena>HBO</cadena>
+        <director>Alex Graves</director>
+        <año>2011</año>
+        <terminada>Sí</terminada>
+    </serie>
+    <serie>
+        <titulo>Big Bang Theory</titulo>
+        <cadena>CBS</cadena>
+        <director>Chuck Lorre</director>
+        <año>2007</año>
+        <terminada>Sí</terminada>
+    </serie>
+    <serie>
+        <titulo>The Crown</titulo>
+        <cadena>Netflix</cadena>
+        <director>Peter Morgan</director>
+        <año>2016</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>Emily in Paris</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>True Blood</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>Gossip Girl</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>House</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>Peaky Blinders</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>House of Dragon</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+    <serie>
+        <titulo>The Brigertons</titulo>
+        <cadena>Netflix</cadena>
+        <director>Darren Star</director>
+        <año>2020</año>
+        <terminada>No</terminada>
+    </serie>
+</series>
