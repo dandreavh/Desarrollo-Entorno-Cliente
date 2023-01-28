@@ -30,43 +30,43 @@
     </serie>
     <serie>
         <titulo>True Blood</titulo>
-        <cadena>Netflix</cadena>
-        <director>Darren Star</director>
-        <año>2020</año>
-        <terminada>No</terminada>
+        <cadena>HBO</cadena>
+        <director>Alan Ball</director>
+        <año>2008</año>
+        <terminada>Sí</terminada>
     </serie>
     <serie>
         <titulo>Gossip Girl</titulo>
-        <cadena>Netflix</cadena>
-        <director>Darren Star</director>
-        <año>2020</año>
-        <terminada>No</terminada>
+        <cadena>The CW</cadena>
+        <director>Stephanie Savage</director>
+        <año>2007</año>
+        <terminada>Sí</terminada>
     </serie>
     <serie>
-        <titulo>House</titulo>
-        <cadena>Netflix</cadena>
-        <director>Darren Star</director>
-        <año>2020</año>
-        <terminada>No</terminada>
+        <titulo>House M.D.</titulo>
+        <cadena>FOX</cadena>
+        <director>David Shore</director>
+        <año>2000</año>
+        <terminada>Sí</terminada>
     </serie>
     <serie>
         <titulo>Peaky Blinders</titulo>
-        <cadena>Netflix</cadena>
-        <director>Darren Star</director>
-        <año>2020</año>
+        <cadena>BBC Two</cadena>
+        <director>Otto Bathurst</director>
+        <año>2013</año>
+        <terminada>Sí</terminada>
+    </serie>
+    <serie>
+        <titulo>House of the Dragon</titulo>
+        <cadena>HBO</cadena>
+        <director>Clare Kilner</director>
+        <año>2022</año>
         <terminada>No</terminada>
     </serie>
     <serie>
-        <titulo>House of Dragon</titulo>
+        <titulo>The Bridgerton</titulo>
         <cadena>Netflix</cadena>
-        <director>Darren Star</director>
-        <año>2020</año>
-        <terminada>No</terminada>
-    </serie>
-    <serie>
-        <titulo>The Brigertons</titulo>
-        <cadena>Netflix</cadena>
-        <director>Darren Star</director>
+        <director> Julia Quinn</director>
         <año>2020</año>
         <terminada>No</terminada>
     </serie>
