@@ -1,0 +1,76 @@
+{
+    "Series":[{
+        "Serie":[
+            {
+                "Titulo": "Game of Thrones",
+                "Director": "Alex Graves",
+                "Cadena": "HBO",
+                "Año": 2011,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "Big Bang Theory",
+                "Director": "Chuck Lorre",
+                "Cadena": "CBS",
+                "Año": 2007,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "The Crown",
+                "Director": "Peter Morgan",
+                "Cadena": "Netflix",
+                "Año": 2016,
+                "Terminada": "No"
+            },
+            {
+                "Titulo": "Emily in Paris",
+                "Director": "Darren Star",
+                "Cadena": "Netflix",
+                "Año": 2020,
+                "Terminada": "No"
+            },
+            {
+                "Titulo": "True Blood",
+                "Director": "Alan Ball",
+                "Cadena": "HBO",
+                "Año": 2008,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "Gossip Girl",
+                "Director": "Stephanie Savage",
+                "Cadena": "The CW",
+                "Año": 2007,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "House M.D.",
+                "Director": "David Shore",
+                "Cadena": "FOX",
+                "Año": 2000,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "Peaky Blinders",
+                "Director": "Otto Bathurst",
+                "Cadena": "BBC Two",
+                "Año": 2013,
+                "Terminada": "Sí"
+            },
+            {
+                "Titulo": "House of the Dragon",
+                "Director": "Clare Kilner",
+                "Cadena": "HBO",
+                "Año": 2022,
+                "Terminada": "No"
+            },
+            {
+                "Titulo": "The Bridgerton",
+                "Director": "Julia Quinn",
+                "Cadena": "Netflix",
+                "Año": 2020,
+                "Terminada": "No"
+            }
+        ]
+    }]
+}
