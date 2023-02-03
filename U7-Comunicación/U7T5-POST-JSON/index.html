@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./logic.js"></script>
+    <title>U7T5-POST-JSON</title>
+</head>
+<body>
+    <h1>Post AJAX a BD con JSON</h1>
+    <form action="">
+        <div>
+            <label for="titulo">Título</label>
+            <input type="text" name="titulo" id="titulo">
+        </div>
+        <div>
+            <label for="director">Director</label>
+            <input type="text" name="director" id="director">
+        </div>
+        <div>
+            <label for="cadena">Cadena</label>
+            <input type="text" name="cadena" id="cadena">
+        </div>
+        <div>
+            <label for="anyo">Año</label>
+            <input type="text" name="anyo" id="anyo">
+        </div>
+        <div>
+            <label for="terminada">Terminada</label>
+            <input type="checkbox" name="terminada" id="terminada">
+        </div>
+    </form>
+    <div>
+        <button type="button" id="enviar" name="enviar">Añadir serie</button>
+    </div>
+    <div id="respuesta"></div>
+</body>
+</html>
