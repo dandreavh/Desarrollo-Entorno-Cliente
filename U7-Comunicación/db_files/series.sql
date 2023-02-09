@@ -36,7 +36,7 @@ CREATE TABLE `series`
   `cadena` varchar(1024),
   `director` varchar(1024),
   `anyo` integer,
-  `terminada` varchar(2),
+  `terminada` tinyint(1),
   CONSTRAINT id PRIMARY KEY (id)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 

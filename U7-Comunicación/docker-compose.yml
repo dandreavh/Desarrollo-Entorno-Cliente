@@ -18,6 +18,8 @@ services:
   webserver:
     image: nginx:alpine
     container_name: dwecont-webserver
+    environment:
+        XDEBUG_CONFIG: remote_host=host.docker.internal remote_port=9000 remote_enable=1
     working_dir: /application
     volumes:
       - .:/application
