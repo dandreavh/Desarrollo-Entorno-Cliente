@@ -26,16 +26,16 @@ function guardar() {
     xhr.setRequestHeader("Content-type", "application/json");
     let cadena_formato_json = JSON.stringify(dato);
     
-    // Verifica el estado
+    // Verifica el estado (se debe tratar el XMLHttpRequest!)
     xhr.onreadystatechange = () => {
-        if (this.readyState == READY_STATE_COMPLETE &&
-            this.status == HTTP_STATUS_OK) {
-                let respuesta = document.getElementById("respuesta");
-                respuesta.innerHTML = this.responseText;
-            if(this.responseText === '"ok"'){
-                respuesta.style.color = "green";
+        if (xhr.readyState == READY_STATE_COMPLETE &&
+            xhr.status == HTTP_STATUS_OK) {
+            if(xhr.responseText !== '"ok"'){
+                div_respuesta.style.color = "red";
+                div_respuesta.innerHTML = "No se ha podido insertar en la BD";
             }else{
-                respuesta.style.color = "red";
+                div_respuesta.style.color = "green";
+                div_respuesta.innerHTML = xhr.responseText;
             }
         }
     };
