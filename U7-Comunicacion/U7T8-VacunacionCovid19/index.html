@@ -4,10 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script defer src="logic.js"></script>
     <title>Vacunación</title>
 </head>
 <body>
-    <h1>Resumen de vacunación</h1>
+    <main class="container">
+        <h1 class="bg-success text-light p-5 text-center">Resumen de vacunación</h1>
+        <div class="d-md-flex justify-content-lg-around mt-5 mb-2">
+            <label for="ccaa" class="form-label">Comunidad autónoma</label>
+            <select name="ccaa" id="ccaa" class="form-select w-50">
+                <option value="">Seleccione Comunidad Autónoma</option>
+            </select>
+            <button id="modificar_datos" class="btn btn-success">Modificar datos</button>
+        </div>
+        <div class="d-md-flex justify-content-between">
+            <div>
+                <label for="d_entregadas" class="form-label">D. Entregadas</label>
+                <input type="number" name="d_entregadas" id="d_entregadas" class="form-control">
+            </div>
+            <div>
+                <label for="d_admin" class="form-label">D. Admin</label>
+                <input type="number" name="d_admin" id="d_admin" class="form-control">
+            </div>
+            <div>
+                <label for="d_completa" class="form-label">D. Completa</label>
+                <input type="number" name="d_completa" id="d_completa" class="form-control">
+            </div>
+        </div>
+        <div class="d-md-flex justify-content-between">
+            <div>
+                <label for="p_entregadas" class="form-label">P. Entregadas</label>
+                <input type="number" name="p_entregadas" id="p_entregadas" class="form-control">
+            </div>
+            <div>
+                <label for="p_admin" class="form-label">P. Admin</label>
+                <input type="number" name="p_admin" id="p_admin" class="form-control"> 
+            </div>
+            <div>
+                <label for="p_completa" class="form-label">P. Completa</label>
+                <input type="number" name="p_completa" id="p_completa" class="form-control">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h2>Resultados de las peticiones</h2>
+            <p id="resultados"></p>
+        </div>
+        <hr>
+        <button id="cargar_xhr" class="btn btn-outline-success">Cargar datos vacunación (XMLHttpRequest)</button>
+        <button id="cargar_fetch" class="btn btn-outline-success">Cargar datos vacunación (Fetch)</button>
+        <div id="tabla" class="mt-3">
+            <h2>Tabla de vacunación</h2>
+        </div>
+    </main>
 </body>
 </html>
