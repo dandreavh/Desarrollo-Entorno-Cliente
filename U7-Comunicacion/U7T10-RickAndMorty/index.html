@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="logic.js"></script>
+    <title>Ejercicio Estudios Ghibli</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <h1 class="bg-dark text-info p-5 text-center">Rick & Morty</h1>
+        <div>
+            <label for="minimo">Mín.</label>
+            <input type="number" name="minimo" id="minimo" min="0">
+            <label for="maximo">Máx.</label>
+            <input type="number" name="maximo" id="maximo" min="0">
+            <button id="carga_personajes_XML" class="btn btn-info m-3">Carga Personajes XML</button>
+            <button id="carga_personajes_Fetch" class="btn btn-info m-3">Carga Personajes Fetch</button>
+        </div>
+        <hr>
+        <div>
+            <h3>Trazas</h3>
+            <p id="trazas"></p>
+        </div>
+        <hr>
+        <div>
+            <select name="personajes" id="personajes"></select>
+            <button id="obtener_guardar_episodios" class="btn btn-outline-info m-3">Obtener y guardar episodios</button>
+        </div>
+        <hr>
+        <div id="resultado"></div>
+    </main>
+</body>
+</html>

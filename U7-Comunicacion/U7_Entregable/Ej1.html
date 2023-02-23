@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="Ej1.js"></script>
+    <title>Ejercicio Random User</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <h1 class="bg-dark text-info p-5 text-center">Chebook</h1>
+        <button class="btn btn-info" id="generar_usuario">Generar usuario</button>
+        <button class="btn btn-secondary" id="guardar_usuario_XML">Guardar usuarios en la BD (XMLHttpRequest)</button>
+        <button class="btn btn-secondary" id="guardar_usuario_Fetch">Guardar usuarios en la BD (Fetch)</button>
+        <hr>
+        <div>
+            <h3>Trazas</h3>
+            <p id="trazas"></p>
+        </div>
+        <hr>
+        <div id="tarjeta"></div>
+        <hr>
+        <div id="tabla"></div>
+    </main>
+</body>
+</html>
